@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080812">
+
+  <title>About Me | Muhammad Ibrahim Sohail</title>
+  <meta name="description" content="Learn about Muhammad Ibrahim Sohail, his web development journey, interests and skills.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-purple"></div>
+  <div class="background-glow glow-cyan"></div>
+  <div class="noise"></div>
+
+  <header class="navbar">
+    <a class="logo" href="./index.html">
+      <span class="logo-icon">I.</span>
+      <span>IBRAHIM<span class="gradient-text">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="navLinks">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./project.html">Projects</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./index.html#contact" class="nav-contact">Let's Talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ABOUT INTRO -->
+    <section class="section-container section-spacing about-page-hero">
+      <div class="section-label reveal">
+        <span>01</span> / GET TO KNOW ME
+      </div>
+
+      <p class="eyebrow reveal">A LITTLE ABOUT MYSELF</p>
+
+      <h1 class="section-title reveal">
+        Curious by nature.<br>
+        <span class="gradient-text">Developer by passion.</span>
+      </h1>
+
+      <p class="section-description reveal">
+        I'm Muhammad Ibrahim Sohail, a web developer who enjoys
+        learning, experimenting and bringing digital ideas to life.
+      </p>
+    </section>
+
+    <!-- PROFILE -->
+    <section class="section-container about-profile">
+      <div class="about-profile-image reveal">
+        <div class="profile-image-label">PROFILE / IBRAHIM</div>
+        <img src="./assets/images.jpeg"
+          alt="Muhammad Ibrahim Sohail">
+        <div class="profile-image-footer">
+          <span>CREATIVE THINKER</span>
+          <span>WEB DEVELOPER</span>
+        </div>
+      </div>
+
+      <div class="about-profile-copy reveal">
+        <div class="section-label">
+          <span>02</span> / MY STORY
+        </div>
+
+        <h2 class="section-title">
+          I build things<br>
+          <span class="gradient-text">for the web.</span>
+        </h2>
+
+        <p>
+          I'm interested in creating websites that look modern,
+          work smoothly and make information easy to explore.
+        </p>
+
+        <p>
+          My journey includes learning frontend development,
+          experimenting with layouts and building projects that
+          help me improve my coding and problem-solving skills.
+        </p>
+
+        <p>
+          I believe good websites need more than attractive visuals:
+          they should also be responsive, accessible and useful.
+        </p>
+
+        <a href="./project.html" class="button button-primary">
+          Explore My Projects <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section-container section-spacing">
+      <div class="section-label reveal">
+        <span>03</span> / HOW I WORK
+      </div>
+
+      <h2 class="section-title reveal">
+        My approach to<br>
+        <span class="gradient-text">building better.</span>
+      </h2>
+
+      <div class="approach-grid">
+        <article class="approach-card reveal">
+          <span class="approach-number">01</span>
+          <div class="approach-icon">&lt;/&gt;</div>
+          <h3>Learn & Explore</h3>
+          <p>
+            I explore technologies and practice new techniques
+            to keep improving my development skills.
+          </p>
+        </article>
+
+        <article class="approach-card reveal">
+          <span class="approach-number">02</span>
+          <div class="approach-icon">◈</div>
+          <h3>Design with Purpose</h3>
+          <p>
+            I value clear layouts, thoughtful typography
+            and a consistent visual experience.
+          </p>
+        </article>
+
+        <article class="approach-card reveal">
+          <span class="approach-number">03</span>
+          <div class="approach-icon">✳</div>
+          <h3>Build & Improve</h3>
+          <p>
+            I test my work, fix issues and refine the experience
+            across different screen sizes.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section-container section-spacing">
+      <div class="contact-panel reveal">
+        <div class="section-label">
+          <span>04</span> / LET'S CONNECT
+        </div>
+
+        <h2 class="contact-title">
+          Good ideas start<br>
+          <span class="gradient-text">with a conversation.</span>
+        </h2>
+
+        <p>
+          Have an idea, a project or an opportunity to discuss?
+          Let's connect.
+        </p>
+
+        <a href="./contact.html" class="button button-primary">
+          Contact Me <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-container">
+    <a class="logo" href="./index.html">
+      <span class="logo-icon">I.</span>
+      <span>IBRAHIM<span class="gradient-text">.</span></span>
+    </a>
+
+    <p>Designed with curiosity. Built with code.</p>
+    <span>© <span id="currentYear"></span> Ibrahim</span>
+  </footer>
+</body>
+</html>

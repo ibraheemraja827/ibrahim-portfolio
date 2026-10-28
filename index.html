@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#080812">
+  <title>Muhammad Ibrahim Sohail | Portfolio</title>
+  <meta name="description" content="Explore the portfolio, projects and web development work of Muhammad Ibrahim Sohail.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-purple"></div>
+  <div class="background-glow glow-cyan"></div>
+  <div class="noise"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a class="logo" href="#home" aria-label="Ibrahim home">
+      <span class="logo-icon">I.</span>
+      <span>IBRAHIM<span class="gradient-text">.</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false"
+      aria-controls="navLinks">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+        <a href="./contact.html">Contact</a>
+      <a href="#contact" class="nav-contact">Let's Talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-container" id="home">
+      <div class="hero-content">
+        <div class="availability reveal">
+          <span class="status-dot"></span>
+          WEB DEVELOPER · PORTFOLIO
+        </div>
+
+        <p class="eyebrow reveal">HELLO, I'M MUHAMMAD IBRAHIM</p>
+
+        <h1 class="hero-title reveal">
+          Building the<br>
+          <span class="gradient-text">digital future.</span>
+        </h1>
+
+        <p class="hero-description reveal">
+          I create modern websites with thoughtful design,
+          smooth interactions and meaningful user experiences.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#projects" class="button button-primary">
+            Explore My Work <span>↗</span>
+          </a>
+          <a href="#contact" class="button button-secondary">
+            Get In Touch
+          </a>
+        </div>
+
+        <div class="hero-note reveal">
+          <span class="note-line"></span>
+          DESIGN MINDED. CODE DRIVEN.
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+
+        <div class="hero-image-frame">
+          <div class="image-top-label">CREATIVE MIND / 001</div>
+          <img src="./assets/images.jpeg"
+            alt="Muhammad Ibrahim Sohail"
+            class="hero-image">
+
+          <div class="image-bottom-label">
+            <span>DEVELOPER</span>
+            <span>PAKISTAN ↗</span>
+          </div>
+        </div>
+
+        <div class="floating-chip chip-top">
+          <span class="chip-symbol">&lt;/&gt;</span>
+          <span>Clean Code</span>
+        </div>
+
+        <div class="floating-chip chip-bottom">
+          <span class="chip-symbol">✳</span>
+          <span>Creative Thinking</span>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#about">
+        <span class="scroll-line"></span>
+        SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section-container section-spacing" id="about">
+      <div class="section-label reveal">
+        <span>01</span> / ABOUT ME
+      </div>
+
+      <div class="about-grid">
+        <h2 class="section-title reveal">
+          Not just websites.<br>
+          <span class="gradient-text">Digital experiences.</span>
+        </h2>
+
+        <div class="about-copy reveal">
+          <p>
+            I'm Muhammad Ibrahim Sohail, a developer interested in
+            building websites that combine modern visuals with
+            useful functionality.
+          </p>
+          <p>
+            I enjoy learning new technologies, solving problems
+            and turning ideas into interactive digital experiences.
+          </p>
+          <a href="./about.html" class="text-link">
+            MORE ABOUT ME <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section-container section-spacing" id="skills">
+      <div class="section-label reveal">
+        <span>02</span> / MY TOOLKIT
+      </div>
+
+      <div class="skills-heading reveal">
+        <h2 class="section-title">
+          Tools for turning<br>
+          <span class="gradient-text">ideas into reality.</span>
+        </h2>
+        <p class="section-description">
+          Technologies and skills I'm learning and using to build for the web.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-number">01</span>
+          <div class="skill-icon">&lt;/&gt;</div>
+          <h3>HTML & CSS</h3>
+          <p>Web structure, layouts and responsive design.</p>
+          <span class="skill-tag">FRONTEND</span>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-number">02</span>
+          <div class="skill-icon">✳</div>
+          <h3>JavaScript</h3>
+          <p>Interactive features and dynamic experiences.</p>
+          <span class="skill-tag">INTERACTION</span>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-number">03</span>
+          <div class="skill-icon">◈</div>
+          <h3>React</h3>
+          <p>Reusable components and modern interfaces.</p>
+          <span class="skill-tag">FRAMEWORK</span>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-number">04</span>
+          <div class="skill-icon">⌘</div>
+          <h3>Creative Design</h3>
+          <p>Visual direction, typography and user experience.</p>
+          <span class="skill-tag">DESIGN</span>
+        </article>
+      </div>
+    </section>
+
+<!-- Skills Section -->
+<section class="section reveal" id="skills">
+    <div class="section-heading">
+        <p class="section-tag">MY EXPERTISE</p>
+        <h2>My <span class="gradient-text">Skills</span></h2>
+        <p>Technologies and tools I use to build modern websites.</p>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML5</h3>
+            <p>Website structure and semantic markup</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts, styling and animations</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Interactive website functionality</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">⚛️</div>
+            <h3>React</h3>
+            <p>Reusable components and user interfaces</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">▲</div>
+            <h3>Next.js</h3>
+            <p>Modern React-based web applications</p>
+        </div>
+
+        <div class="skill-card">
+            <div class="skill-icon">🛠️</div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and project management</p>
+        </div>
+    </div>
+</section>
+
+    <!-- PROJECTS -->
+    <section class="projects section-container section-spacing" id="projects">
+      <div class="section-label reveal">
+        <span>03</span> / SELECTED PROJECTS
+      </div>
+
+      <div class="projects-heading reveal">
+        <h2 class="section-title">
+          Things I've<br>
+          <span class="gradient-text">been building.</span>
+        </h2>
+        <p class="section-description">
+          A selection of my development work and creative experiments.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <a href="./project.html" class="project-art project-art-one"
+             aria-label="View web development projects">
+            <span class="project-index">PROJECT / 01</span>
+            <img src="./assets/image1.png"
+              alt="Web development project preview"
+              class="project-image">
+            <span class="project-art-caption">IDEAS INTO EXPERIENCES ↗</span>
+          </a>
+
+          <div class="project-content">
+            <div class="project-meta">WEB DEVELOPMENT</div>
+            <h3>Web Project</h3>
+            <p>
+              A web project focused on clean design,
+              responsive layouts and user experience.
+            </p>
+            <a href="./project.html" class="project-link">
+              EXPLORE PROJECTS <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="./project.html" class="project-art project-art-two"
+             aria-label="View Creative Store project">
+            <span class="project-index">PROJECT / 02</span>
+            <img src="./assets/image2.png"
+              alt="Creative Store project preview"
+              class="project-image">
+            <span class="project-art-caption">STYLE MEETS FUNCTION ↗</span>
+          </a>
+
+          <div class="project-content">
+            <div class="project-meta">E-COMMERCE</div>
+            <h3>Creative Store</h3>
+            <p>
+              An online store concept focused on product
+              presentation and responsive design.
+            </p>
+            <a href="./project.html" class="project-link">
+              EXPLORE PROJECTS <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <a href="./project.html" class="button button-secondary all-projects">
+        View All Projects <span>↗</span>
+      </a>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section-container section-spacing" id="contact">
+      <div class="contact-panel reveal">
+        <div class="section-label">
+          <span>04</span> / CONTACT
+        </div>
+
+        <p class="eyebrow">HAVE AN IDEA?</p>
+
+        <h2 class="contact-title">
+          Let's build something<br>
+          <span class="gradient-text">meaningful.</span>
+        </h2>
+
+        <p>
+          Have a project idea or want to connect?
+          I'd be happy to hear from you.
+        </p>
+
+        <!-- Replace with your real email address -->
+        <a class="button button-primary"
+           href="mailto:YOUR_EMAIL@example.com">
+          Get In Touch <span>↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-container">
+    <a class="logo" href="#home">
+      <span class="logo-icon">I.</span>
+      <span>IBRAHIM<span class="gradient-text">.</span></span>
+    </a>
+
+    <p>Designed with curiosity. Built with code.</p>
+    <span>© <span id="currentYear"></span> Ibrahim</span>
+  </footer>
+</body>
+</html>
